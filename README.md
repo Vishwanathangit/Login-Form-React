@@ -1,16 +1,68 @@
-<<<<<<< HEAD
-# React + Vite
+# 🔐 React Login Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive login page built using **React** and **Tailwind CSS**. This project features a simple username/password login mechanism with basic validation and smooth UI styling.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Username & password login with hardcoded credentials
+- Displays success message on valid login
+- Modern and responsive UI using Tailwind CSS
+- Built with React functional components and hooks
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Login-Form-React
->>>>>>> acc005fcc9a8395b6c58de65babeb8e4323ac1b3
+- **React** – JavaScript library for UI
+- **Tailwind CSS** – Utility-first CSS framework
+- **Vite** – Fast dev environment and bundler
+
+## 📂 Project Structure
+
+<pre>
+  ```
+  login-form-react/
+├── node_modules/
+├── public/
+│ ├── assets/
+│ ├── react.svg
+│ └── index.html
+├── src/
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ ├── Login.jsx
+│ └── main.jsx
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+  ```
+</pre>
+
+
+## 💡 How to Use
+
+1. **Clone the Repository**
+   git clone https://github.com/yourusername/react-login-page.git
+   cd react-login-page
+   
+2. Install Dependencies
+   npm install
+
+3.Run the App
+  npm run dev
+
+4.Credentials
+Username: Vishwa
+Password: 123@
+
+✨ UI Preview
+Input fields for username and password
+
+Login button with hover effect
+
+Success message displayed upon valid login
+
+GitHub Repo : [https://github.com/Vishwanathangit/Login-Form-React.git]
+
+LiveDemo : [https://login-form-react-pearl.vercel.app/]
